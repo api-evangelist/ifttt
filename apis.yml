@@ -1,0 +1,64 @@
+aid: ifttt
+name: IFTTT
+description: >-
+  IFTTT (If This Then That) is a consumer and prosumer automation
+  platform that connects more than 750 apps, devices, and services
+  through conditional Applets that chain triggers to actions. The IFTTT
+  Maker Webhooks service exposes a public HTTP API that lets developers
+  fire triggers and execute Applets from any internet-connected device
+  using a personal Webhooks key for authentication, with both
+  form-encoded and JSON payload variants supported.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Automation
+  - Webhooks
+  - iPaaS
+  - No-Code
+  - Smart Home
+  - IoT
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/ifttt/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: ifttt:webhooks-api
+    name: IFTTT Maker Webhooks API
+    description: >-
+      Public HTTP API for triggering IFTTT Applets from any device or
+      service by sending GET or POST requests to a per-user trigger URL.
+      Supports up to three positional values per call or arbitrary JSON
+      payloads on the `/json` variant. Authentication uses a personal
+      Webhooks key embedded in the URL path.
+    humanURL: https://ifttt.com/maker_webhooks
+    baseURL: https://maker.ifttt.com
+    tags:
+      - Webhooks
+      - Automation
+      - Triggers
+      - No-Code
+    properties:
+      - type: Documentation
+        url: https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ
+      - type: Key Lookup
+        url: https://ifttt.com/maker_webhooks/settings
+      - type: Service Page
+        url: https://ifttt.com/maker_webhooks
+      - type: Developer Dashboard
+        url: https://ifttt.com/developer_dashboard
+
+common:
+  - type: Website
+    url: https://ifttt.com
+  - type: Documentation
+    url: https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ
+  - type: Pricing
+    url: https://ifttt.com/plans
+  - type: Sign Up
+    url: https://ifttt.com/join
+  - type: Developer Platform
+    url: https://platform.ifttt.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
