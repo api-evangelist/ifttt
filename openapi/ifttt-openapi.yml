@@ -1,0 +1,78 @@
+openapi: 3.1.0
+info:
+  title: IFTTT Webhooks (Maker) API
+  description: |
+    The IFTTT Webhooks service lets you trigger Applets by sending a request
+    to a per-event URL with your Maker key.
+  version: "1.0"
+  contact:
+    name: IFTTT Help
+    url: https://help.ifttt.com/hc/en-us/articles/115010230347
+servers:
+  - url: https://maker.ifttt.com
+    description: Webhooks endpoint
+paths:
+  /trigger/{event}/with/key/{key}:
+    parameters:
+      - name: event
+        in: path
+        required: true
+        schema:
+          type: string
+        description: Event name configured in the Webhooks service.
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+        description: Maker key from the Webhooks service settings.
+    get:
+      summary: Trigger an event
+      operationId: triggerEvent
+      responses:
+        "200":
+          description: Event accepted
+    post:
+      summary: Trigger an event with optional value payload
+      operationId: triggerEventWithValues
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                value1:
+                  type: string
+                value2:
+                  type: string
+                value3:
+                  type: string
+      responses:
+        "200":
+          description: Event accepted
+  /trigger/{event}/json/with/key/{key}:
+    parameters:
+      - name: event
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: key
+        in: path
+        required: true
+        schema:
+          type: string
+    post:
+      summary: Trigger an event with a JSON payload
+      operationId: triggerEventWithJson
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      responses:
+        "200":
+          description: Event accepted
