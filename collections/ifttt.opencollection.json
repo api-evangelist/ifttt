@@ -1,0 +1,91 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "IFTTT Webhooks (Maker) API",
+    "version": "1.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Trigger an event",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://maker.ifttt.com/trigger/:event/with/key/:key",
+        "params": [
+          {
+            "name": "event",
+            "value": "",
+            "type": "path",
+            "description": "Event name configured in the Webhooks service."
+          },
+          {
+            "name": "key",
+            "value": "",
+            "type": "path",
+            "description": "Maker key from the Webhooks service settings."
+          }
+        ]
+      },
+      "docs": "Trigger an event"
+    },
+    {
+      "info": {
+        "name": "Trigger an event with optional value payload",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://maker.ifttt.com/trigger/:event/with/key/:key",
+        "params": [
+          {
+            "name": "event",
+            "value": "",
+            "type": "path",
+            "description": "Event name configured in the Webhooks service."
+          },
+          {
+            "name": "key",
+            "value": "",
+            "type": "path",
+            "description": "Maker key from the Webhooks service settings."
+          }
+        ],
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "Trigger an event with optional value payload"
+    },
+    {
+      "info": {
+        "name": "Trigger an event with a JSON payload",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://maker.ifttt.com/trigger/:event/json/with/key/:key",
+        "params": [
+          {
+            "name": "event",
+            "value": "",
+            "type": "path"
+          },
+          {
+            "name": "key",
+            "value": "",
+            "type": "path"
+          }
+        ],
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "Trigger an event with a JSON payload"
+    }
+  ],
+  "bundled": true
+}
