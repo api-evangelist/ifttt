@@ -9,7 +9,7 @@ description: >-
   using a personal Webhooks key for authentication, with both
   form-encoded and JSON payload variants supported.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Automation
   - Webhooks
