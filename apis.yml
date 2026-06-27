@@ -59,7 +59,7 @@ common:
     url: https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ
   - type: Pricing
     url: https://ifttt.com/plans
-  - type: SignUp
+  - type: Signup
     url: https://ifttt.com/join
   - type: Developer Platform
     url: https://platform.ifttt.com
