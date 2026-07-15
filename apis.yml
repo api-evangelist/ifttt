@@ -49,6 +49,8 @@ apis:
         url: https://ifttt.com/developer_dashboard
 
 common:
+  - type: AgenticAccess
+    url: agentic-access/ifttt-agentic-access.yml
   - type: DomainSecurity
     url: security/ifttt-domain-security.yml
   - type: GitHubOrganization
