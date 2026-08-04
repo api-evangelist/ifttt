@@ -1,0 +1,14 @@
+{
+  "provider": "ifttt",
+  "sources": [
+    "ifttt-trigger-api-openapi.yml"
+  ],
+  "outputs": [
+    "ifttt-trigger-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
