@@ -1,0 +1,359 @@
+{
+  "item": [
+    {
+      "id": "bbdd7bf4-64cf-45ce-b48f-0354b5ae9d97",
+      "name": "Trigger",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "907978ef-62a0-484a-b588-cea5883ef2e9",
+          "name": "Trigger an event",
+          "request": {
+            "name": "Trigger an event",
+            "description": {},
+            "url": {
+              "path": [
+                "trigger",
+                ":event",
+                "with",
+                "key",
+                ":key"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "event",
+                  "description": "(Required) Event name configured in the Webhooks service."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "key",
+                  "description": "(Required) Maker key from the Webhooks service settings."
+                }
+              ]
+            },
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "8bb2bd93-d068-4dda-ab76-e0d327b44bb4",
+              "name": "Event accepted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "trigger",
+                    ":event",
+                    "with",
+                    "key",
+                    ":key"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "event",
+                      "description": "(Required) Event name configured in the Webhooks service."
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "key",
+                      "description": "(Required) Maker key from the Webhooks service settings."
+                    }
+                  ]
+                },
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "5becb341-e598-4c94-a6ac-72c00ad0d9fc",
+          "name": "Trigger an event with optional value payload",
+          "request": {
+            "name": "Trigger an event with optional value payload",
+            "description": {},
+            "url": {
+              "path": [
+                "trigger",
+                ":event",
+                "with",
+                "key",
+                ":key"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "event",
+                  "description": "(Required) Event name configured in the Webhooks service."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "key",
+                  "description": "(Required) Maker key from the Webhooks service settings."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"value1\": \"<string>\",\n  \"value2\": \"<string>\",\n  \"value3\": \"<string>\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "98f73bc5-93f1-4cb7-9678-3d28b247573c",
+              "name": "Event accepted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "trigger",
+                    ":event",
+                    "with",
+                    "key",
+                    ":key"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "event",
+                      "description": "(Required) Event name configured in the Webhooks service."
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "key",
+                      "description": "(Required) Maker key from the Webhooks service settings."
+                    }
+                  ]
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"value1\": \"<string>\",\n  \"value2\": \"<string>\",\n  \"value3\": \"<string>\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "6a29b6b5-0a51-4f34-a993-91e0130457f8",
+          "name": "Trigger an event with a JSON payload",
+          "request": {
+            "name": "Trigger an event with a JSON payload",
+            "description": {},
+            "url": {
+              "path": [
+                "trigger",
+                ":event",
+                "json",
+                "with",
+                "key",
+                ":key"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "event",
+                  "description": "(Required) "
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "key",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"key_0\": true\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "2bc81c17-81bb-487c-8c6d-93c6849232e8",
+              "name": "Event accepted",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "trigger",
+                    ":event",
+                    "json",
+                    "with",
+                    "key",
+                    ":key"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "event",
+                      "description": "(Required) "
+                    },
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "key",
+                      "description": "(Required) "
+                    }
+                  ]
+                },
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"key_0\": \"string\"\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://maker.ifttt.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "e9c34dca-d809-43ea-ba59-947ba577f7af",
+    "name": "IFTTT Webhooks (Maker) Trigger API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "The IFTTT Webhooks service lets you trigger Applets by sending a request\nto a per-event URL with your Maker key.\n\n\nContact Support:\n Name: IFTTT Help",
+      "type": "text/plain"
+    }
+  }
+}
