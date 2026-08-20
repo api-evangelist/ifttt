@@ -23,6 +23,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ifttt.png
 tags:
   - Automation
+  - Webhook
+  - iPaaS
+  - No-Code
+  - Smart Home
+  - IoT
+tags_raw:
+  - Automation
   - Webhooks
   - iPaaS
   - No-Code
@@ -43,6 +50,11 @@ apis:
   humanURL: https://ifttt.com/maker_webhooks
   baseURL: https://maker.ifttt.com
   tags:
+  - Webhook
+  - Automation
+  - Triggers
+  - No-Code
+  tags_raw:
   - Webhooks
   - Automation
   - Triggers
