@@ -1,11 +1,9 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
   title: IFTTT Webhooks (Maker) Trigger API
   description: 'The IFTTT Webhooks service lets you trigger Applets by sending a request
 
-    to a per-event URL with your Maker key.
-
-    '
+    to a per-event URL with your Maker key.'
   version: '1.0'
   contact:
     name: IFTTT Help
