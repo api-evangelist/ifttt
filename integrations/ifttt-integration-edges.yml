@@ -25,8 +25,18 @@ checked:
 - https://www.sequoiacap.com/sitemap.xml
 - hubspot/integrations/hubspot-integration-edges.yml
 - intercom/integrations/intercom-integration-edges.yml
+- https://ifttt.com/explore/services
+- https://ifttt.com/sitemap_services.xml
 summary: null
-marketplace_apps: []
+marketplace_apps:
+- marketplace: coverage
+  channel: provider-built
+  app: ifttt
+  url: https://ifttt.com/explore/services
+  app_count: 1070
+  adapter: sweep-ifttt-services.py:ifttt
+  listed: 169
+  note: 'IFTTT service directory: 1070 services, 169 linked providers'
 edges:
 - partner_name: MCP Registry
   partner: mcp
@@ -199,4 +209,4248 @@ edges:
   detected: '2026-10-23'
   detected_by: mirror-platform-listings.py
   category: Automation platforms
+- partner_name: ActiveCampaign
+  partner: activecampaign
+  partner_match: domain
+  partner_url: https://activecampaign.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/active_campaign
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: ActiveCampaign
+    matched_domain: activecampaign.com
+    matched_by: domain
+    app_slug: active_campaign
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Acuity Scheduling
+  partner: acuity-scheduling
+  partner_match: domain
+  partner_url: https://acuityscheduling.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/acuity_scheduling
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Acuity Scheduling
+    matched_domain: acuityscheduling.com
+    matched_by: domain
+    app_slug: acuity_scheduling
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Adafruit IO
+  partner: adafruit-io
+  partner_match: domain
+  partner_url: https://adafruit.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/adafruit
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Adafruit
+    matched_domain: adafruit.com
+    matched_by: domain
+    app_slug: adafruit
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Airtable
+  partner: airtable
+  partner_match: domain
+  partner_url: https://airtable.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/airtable
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Airtable
+    matched_domain: airtable.com
+    matched_by: domain
+    app_slug: airtable
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Alpaca
+  partner: alpaca
+  partner_match: domain
+  partner_url: https://alpaca.markets
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/alpaca
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Alpaca
+    matched_domain: alpaca.markets
+    matched_by: domain
+    app_slug: alpaca
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: AngelCam
+  partner: angelcam
+  partner_match: domain
+  partner_url: https://angelcam.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/angelcam
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Angelcam
+    matched_domain: angelcam.com
+    matched_by: domain
+    app_slug: angelcam
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Apify
+  partner: apify
+  partner_match: domain
+  partner_url: https://apify.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/apify
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Apify
+    matched_domain: apify.com
+    matched_by: domain
+    app_slug: apify
+    ifttt_category: Developer tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Apollo.io
+  partner: apollo-io
+  partner_match: domain
+  partner_url: https://apollo.io
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/apollo
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Apollo
+    matched_domain: apollo.io
+    matched_by: domain
+    app_slug: apollo
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Apple Music
+  partner: apple-music
+  partner_match: domain+name-among-holders
+  partner_url: https://apple.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/apple_itunes
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Apple News and Music
+    matched_domain: apple.com
+    matched_by: domain+name-among-holders
+    app_slug: apple_itunes
+    ifttt_category: Music
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Asana
+  partner: asana
+  partner_match: domain
+  partner_url: https://asana.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/asana
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Asana
+    matched_domain: asana.com
+    matched_by: domain
+    app_slug: asana
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: AssemblyAI
+  partner: assemblyai
+  partner_match: domain
+  partner_url: https://assemblyai.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/assemblyai
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: AssemblyAI
+    matched_domain: assemblyai.com
+    matched_by: domain
+    app_slug: assemblyai
+    ifttt_category: AI
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: AT&T
+  partner: att
+  partner_match: domain
+  partner_url: https://att.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/attm2x
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: AT&T M2X
+    matched_domain: att.com
+    matched_by: domain
+    app_slug: attm2x
+    ifttt_category: Developer tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: August
+  partner: august
+  partner_match: domain
+  partner_url: https://august.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/augusthome
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: August
+    matched_domain: august.com
+    matched_by: domain
+    app_slug: augusthome
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: AWeber
+  partner: aweber
+  partner_match: domain
+  partner_url: https://aweber.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/aweber
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: AWeber
+    matched_domain: aweber.com
+    matched_by: domain
+    app_slug: aweber
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Basecamp
+  partner: basecamp
+  partner_match: domain
+  partner_url: https://basecamp.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/basecamp
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Basecamp
+    matched_domain: basecamp.com
+    matched_by: domain
+    app_slug: basecamp
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Beds24
+  partner: beds24
+  partner_match: domain
+  partner_url: https://beds24.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/beds24
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Beds24
+    matched_domain: beds24.com
+    matched_by: domain
+    app_slug: beds24
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: beehiiv
+  partner: beehiiv
+  partner_match: domain
+  partner_url: https://beehiiv.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/beehiiv
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Beehiiv
+    matched_domain: beehiiv.com
+    matched_by: domain
+    app_slug: beehiiv
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Beseyecloudsecuritycoltd
+  partner: beseyecloudsecuritycoltd
+  partner_match: domain
+  partner_url: https://beseye.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/beseye
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Beseye
+    matched_domain: beseye.com
+    matched_by: domain
+    app_slug: beseye
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Bitly
+  partner: bitly
+  partner_match: domain
+  partner_url: https://bitly.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/bitly
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Bitly
+    matched_domain: bitly.com
+    matched_by: domain
+    app_slug: bitly
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Box
+  partner: box
+  partner_match: domain
+  partner_url: https://box.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/box
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Box
+    matched_domain: box.com
+    matched_by: domain
+    app_slug: box
+    ifttt_category: News & information
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Brevo
+  partner: brevo
+  partner_match: domain
+  partner_url: https://brevo.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/brevo
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Brevo
+    matched_domain: brevo.com
+    matched_by: domain
+    app_slug: brevo
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Buffer
+  partner: buffer
+  partner_match: domain
+  partner_url: https://buffer.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/buffer
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Buffer
+    matched_domain: buffer.com
+    matched_by: domain
+    app_slug: buffer
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Buy Me a Coffee
+  partner: buymeacoffee
+  partner_match: domain
+  partner_url: https://buymeacoffee.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/buymeacoffee
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Buy Me a Coffee
+    matched_domain: buymeacoffee.com
+    matched_by: domain
+    app_slug: buymeacoffee
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Buzzsprout
+  partner: buzzsprout
+  partner_match: domain
+  partner_url: https://buzzsprout.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/buzzsprout
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Buzzsprout
+    matched_domain: buzzsprout.com
+    matched_by: domain
+    app_slug: buzzsprout
+    ifttt_category: ''
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Cal.com
+  partner: cal-com
+  partner_match: domain
+  partner_url: https://cal.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/cal_com
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Cal.com
+    matched_domain: cal.com
+    matched_by: domain
+    app_slug: cal_com
+    ifttt_category: ''
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Calendly
+  partner: calendly
+  partner_match: domain
+  partner_url: https://calendly.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/calendly
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Calendly
+    matched_domain: calendly.com
+    matched_by: domain
+    app_slug: calendly
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Campaign Monitor
+  partner: campaignmonitor
+  partner_match: domain
+  partner_url: https://campaignmonitor.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/campaign_monitor
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Campaign Monitor
+    matched_domain: campaignmonitor.com
+    matched_by: domain
+    app_slug: campaign_monitor
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Captivate
+  partner: captivate-fm
+  partner_match: domain
+  partner_url: https://captivate.fm
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/captivate
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Captivate
+    matched_domain: captivate.fm
+    matched_by: domain
+    app_slug: captivate
+    ifttt_category: Podcasts
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Chatwork
+  partner: chatwork
+  partner_match: domain
+  partner_url: https://chatwork.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/chatwork
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Chatwork
+    matched_domain: chatwork.com
+    matched_by: domain
+    app_slug: chatwork
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Circle
+  partner: circle-community
+  partner_match: domain
+  partner_url: https://circle.so
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/circle
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Circle
+    matched_domain: circle.so
+    matched_by: domain
+    app_slug: circle
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: ClickSend
+  partner: clicksend
+  partner_match: domain
+  partner_url: https://clicksend.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/clicksend
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: ClickSend SMS
+    matched_domain: clicksend.com
+    matched_by: domain
+    app_slug: clicksend
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Clickup
+  partner: clickup
+  partner_match: domain
+  partner_url: https://clickup.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/clickup
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: ClickUp
+    matched_domain: clickup.com
+    matched_by: domain
+    app_slug: clickup
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Coda
+  partner: coda
+  partner_match: domain+name-among-holders
+  partner_url: https://coda.io
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/coda
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Coda
+    matched_domain: coda.io
+    matched_by: domain+name-among-holders
+    app_slug: coda
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Coinbase
+  partner: coinbase
+  partner_match: domain+name-among-holders
+  partner_url: https://coinbase.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/coinbase
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Coinbase
+    matched_domain: coinbase.com
+    matched_by: domain+name-among-holders
+    app_slug: coinbase
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: ComEd
+  partner: comed-com
+  partner_match: domain
+  partner_url: https://comed.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/ComEd
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: ComEd
+    matched_domain: comed.com
+    matched_by: domain
+    app_slug: ComEd
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Constant Contact
+  partner: constant-contact
+  partner_match: domain
+  partner_url: https://constantcontact.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/constant_contact
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Constant Contact
+    matched_domain: constantcontact.com
+    matched_by: domain
+    app_slug: constant_contact
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Kit
+  partner: convertkit
+  partner_match: domain
+  partner_url: https://kit.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/kit
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Kit
+    matched_domain: kit.com
+    matched_by: domain
+    app_slug: kit
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Copper
+  partner: copper
+  partner_match: domain
+  partner_url: https://copper.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/copper
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Copper
+    matched_domain: copper.com
+    matched_by: domain
+    app_slug: copper
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Cursor
+  partner: cursor
+  partner_match: domain+name-among-holders
+  partner_url: https://cursor.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/cursor
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Cursor
+    matched_domain: cursor.com
+    matched_by: domain+name-among-holders
+    app_slug: cursor
+    ifttt_category: Developer tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Customer.io
+  partner: customer-io
+  partner_match: domain
+  partner_url: https://customer.io
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/customer_io
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Customer.io
+    matched_domain: customer.io
+    matched_by: domain
+    app_slug: customer_io
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Dailymotion
+  partner: dailymotion
+  partner_match: domain
+  partner_url: https://dailymotion.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/dailymotion
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Dailymotion
+    matched_domain: dailymotion.com
+    matched_by: domain
+    app_slug: dailymotion
+    ifttt_category: Photo & video
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: data.world
+  partner: data-world
+  partner_match: domain
+  partner_url: https://data.world
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/datadotworld
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: data.world
+    matched_domain: data.world
+    matched_by: domain
+    app_slug: datadotworld
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: DeepSeek
+  partner: deepseek
+  partner_match: domain
+  partner_url: https://deepseek.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/deepseek
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: DeepSeek
+    matched_domain: deepseek.com
+    matched_by: domain
+    app_slug: deepseek
+    ifttt_category: AI
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Discord
+  partner: discord
+  partner_match: domain
+  partner_url: https://discord.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/discord
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Discord
+    matched_domain: discord.com
+    matched_by: domain
+    app_slug: discord
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Disqus
+  partner: disqus
+  partner_match: domain
+  partner_url: https://disqus.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/disqus
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Disqus
+    matched_domain: disqus.com
+    matched_by: domain
+    app_slug: disqus
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: DocSend
+  partner: docsend
+  partner_match: domain
+  partner_url: https://docsend.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/docsend
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: DocSend
+    matched_domain: docsend.com
+    matched_by: domain
+    app_slug: docsend
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Docusign
+  partner: docusign
+  partner_match: domain
+  partner_url: https://docusign.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/docusign
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: DocuSign
+    matched_domain: docusign.com
+    matched_by: domain
+    app_slug: docusign
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Drip
+  partner: drip
+  partner_match: domain
+  partner_url: https://drip.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/drip
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Drip
+    matched_domain: drip.com
+    matched_by: domain
+    app_slug: drip
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: ecobee
+  partner: ecobee
+  partner_match: domain
+  partner_url: https://ecobee.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/ecobee
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: ecobee
+    matched_domain: ecobee.com
+    matched_by: domain
+    app_slug: ecobee
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Etsy
+  partner: etsy
+  partner_match: domain
+  partner_url: https://etsy.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/etsy
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Etsy for Sellers
+    matched_domain: etsy.com
+    matched_by: domain
+    app_slug: etsy
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Eventbrite
+  partner: eventbrite
+  partner_match: domain
+  partner_url: https://eventbrite.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/eventbrite
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Eventbrite
+    matched_domain: eventbrite.com
+    matched_by: domain
+    app_slug: eventbrite
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: evernote
+  partner: evernote
+  partner_match: domain
+  partner_url: https://evernote.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/evernote
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Evernote
+    matched_domain: evernote.com
+    matched_by: domain
+    app_slug: evernote
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Feedly
+  partner: feedly
+  partner_match: domain
+  partner_url: https://feedly.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/feedly
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Feedly
+    matched_domain: feedly.com
+    matched_by: domain
+    app_slug: feedly
+    ifttt_category: News & information
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Fireflies.ai
+  partner: fireflies
+  partner_match: domain
+  partner_url: https://fireflies.ai
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/fireflies_ai
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Fireflies.ai
+    matched_domain: fireflies.ai
+    matched_by: domain
+    app_slug: fireflies_ai
+    ifttt_category: AI
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Flic
+  partner: flic
+  partner_match: domain
+  partner_url: https://flic.io
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/flic
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Flic
+    matched_domain: flic.io
+    matched_by: domain
+    app_slug: flic
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Follow Up Boss
+  partner: follow-up-boss
+  partner_match: domain
+  partner_url: https://followupboss.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/follow_up_boss
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Follow Up Boss
+    matched_domain: followupboss.com
+    matched_by: domain
+    app_slug: follow_up_boss
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Foursquare
+  partner: foursquare
+  partner_match: domain+name-among-holders
+  partner_url: https://foursquare.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/foursquare
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Foursquare
+    matched_domain: foursquare.com
+    matched_by: domain+name-among-holders
+    app_slug: foursquare
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Gamma
+  partner: gamma
+  partner_match: domain+name-among-holders
+  partner_url: https://gamma.app
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/gamma
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Gamma
+    matched_domain: gamma.app
+    matched_by: domain+name-among-holders
+    app_slug: gamma
+    ifttt_category: AI
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: GetResponse
+  partner: getresponse
+  partner_match: domain
+  partner_url: https://getresponse.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/getresponse
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: GetResponse
+    matched_domain: getresponse.com
+    matched_by: domain
+    app_slug: getresponse
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Ghost
+  partner: ghost-org
+  partner_match: domain
+  partner_url: https://ghost.org
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/ghost
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Ghost
+    matched_domain: ghost.org
+    matched_by: domain
+    app_slug: ghost
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Gmail
+  partner: gmail
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/gmail
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Gmail
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: gmail
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google
+  partner: google
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_contacts
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Contacts
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_contacts
+    ifttt_category: Mobile devices & accessories
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+    other_apps:
+    - google_wifi
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Ads
+  partner: google-ads
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_ads
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Ads
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_ads
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Assistant
+  partner: google-assistant
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_assistant_v2
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Assistant
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_assistant_v2
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Business Profile
+  partner: google-business-profile
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_my_business
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Business Profile
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_my_business
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Forms
+  partner: google-forms
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_forms
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Forms
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_forms
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Meet
+  partner: google-meet
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_meet
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Meet
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_meet
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Nest Smart Device Management
+  partner: google-nest
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_nest_thermostat
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Nest Thermostat
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_nest_thermostat
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Photos Library
+  partner: google-photos
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_photos
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Photos
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_photos
+    ifttt_category: Photo & video
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Google Slides
+  partner: google-slides
+  partner_match: domain+name-among-holders
+  partner_url: https://google.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/google_slides
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Google Slides
+    matched_domain: google.com
+    matched_by: domain+name-among-holders
+    app_slug: google_slides
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Govee
+  partner: govee
+  partner_match: domain
+  partner_url: https://govee.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/govee
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Govee Home
+    matched_domain: govee.com
+    matched_by: domain
+    app_slug: govee
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Gravity Forms
+  partner: gravity-forms
+  partner_match: domain
+  partner_url: https://gravityforms.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/gravity_forms
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Gravity Forms
+    matched_domain: gravityforms.com
+    matched_by: domain
+    app_slug: gravity_forms
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: GroupMe
+  partner: groupme
+  partner_match: domain
+  partner_url: https://groupme.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/groupme
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: GroupMe
+    matched_domain: groupme.com
+    matched_by: domain
+    app_slug: groupme
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Gumroad
+  partner: gumroad
+  partner_match: domain
+  partner_url: https://gumroad.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/gumroad
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Gumroad
+    matched_domain: gumroad.com
+    matched_by: domain
+    app_slug: gumroad
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Harvest
+  partner: harvest
+  partner_match: domain
+  partner_url: https://getharvest.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/harvest
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Harvest
+    matched_domain: getharvest.com
+    matched_by: domain
+    app_slug: harvest
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Honeywell
+  partner: honeywell
+  partner_match: domain
+  partner_url: https://honeywell.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/honeywell_evohome
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Honeywell evohome
+    matched_domain: honeywell.com
+    matched_by: domain
+    app_slug: honeywell_evohome
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+    other_apps:
+    - honeywell_round
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Hootsuite
+  partner: hootsuite
+  partner_match: domain
+  partner_url: https://hootsuite.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/hootsuite
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Hootsuite
+    matched_domain: hootsuite.com
+    matched_by: domain
+    app_slug: hootsuite
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: HubSpot
+  partner: hubspot
+  partner_match: domain
+  partner_url: https://hubspot.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/hubspot
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: HubSpot
+    matched_domain: hubspot.com
+    matched_by: domain
+    app_slug: hubspot
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Hugging Face
+  partner: hugging-face
+  partner_match: domain+name-among-holders
+  partner_url: https://huggingface.co
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/hugging_face
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Hugging Face
+    matched_domain: huggingface.co
+    matched_by: domain+name-among-holders
+    app_slug: hugging_face
+    ifttt_category: AI
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Inoreader
+  partner: inoreader
+  partner_match: domain
+  partner_url: https://inoreader.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/inoreader
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Inoreader
+    matched_domain: inoreader.com
+    matched_by: domain
+    app_slug: inoreader
+    ifttt_category: News & information
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Intercom
+  partner: intercom
+  partner_match: domain
+  partner_url: https://intercom.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/intercom
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Intercom
+    matched_domain: intercom.com
+    matched_by: domain
+    app_slug: intercom
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: iOS
+  partner: ios
+  partner_match: domain+name-among-holders
+  partner_url: https://apple.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/ios_health
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: iOS Health
+    matched_domain: apple.com
+    matched_by: domain+name-among-holders
+    app_slug: ios_health
+    ifttt_category: Mobile devices & accessories
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: iRobot
+  partner: irobot
+  partner_match: domain
+  partner_url: https://irobot.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/irobot
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: iRobot
+    matched_domain: irobot.com
+    matched_by: domain
+    app_slug: irobot
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Itch.io
+  partner: itch-io
+  partner_match: domain
+  partner_url: https://itch.io
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/itchio
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Itch.io
+    matched_domain: itch.io
+    matched_by: domain
+    app_slug: itchio
+    ifttt_category: Gaming & Entertainment
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Jira
+  partner: jira
+  partner_match: domain+name-among-holders
+  partner_url: https://atlassian.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/jira
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Jira
+    matched_domain: atlassian.com
+    matched_by: domain+name-among-holders
+    app_slug: jira
+    ifttt_category: Developer tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Jotform
+  partner: jotform
+  partner_match: domain
+  partner_url: https://jotform.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/jotform
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Jotform
+    matched_domain: jotform.com
+    matched_by: domain
+    app_slug: jotform
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Kalshi
+  partner: kalshi
+  partner_match: domain
+  partner_url: https://kalshi.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/kalshi
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Kalshi
+    matched_domain: kalshi.com
+    matched_by: domain
+    app_slug: kalshi
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Lemon Squeezy
+  partner: lemon-squeezy
+  partner_match: domain
+  partner_url: https://lemonsqueezy.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/lemon_squeezy
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Lemon Squeezy
+    matched_domain: lemonsqueezy.com
+    matched_by: domain
+    app_slug: lemon_squeezy
+    ifttt_category: Shopping
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Leonardo.AI
+  partner: leonardo-ai
+  partner_match: domain
+  partner_url: https://leonardo.ai
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/leonardo_ai
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Leonardo AI
+    matched_domain: leonardo.ai
+    matched_by: domain
+    app_slug: leonardo_ai
+    ifttt_category: Photo & video
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: LINE
+  partner: line
+  partner_match: domain
+  partner_url: https://line.me
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/line_v2
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: LINE
+    matched_domain: line.me
+    matched_by: domain
+    app_slug: line_v2
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Mailchimp
+  partner: mailchimp
+  partner_match: domain+name-among-holders
+  partner_url: https://mailchimp.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/mailchimp
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Mailchimp
+    matched_domain: mailchimp.com
+    matched_by: domain+name-among-holders
+    app_slug: mailchimp
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: MailerLite
+  partner: mailerlite
+  partner_match: domain
+  partner_url: https://mailerlite.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/mailerlite
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: MailerLite
+    matched_domain: mailerlite.com
+    matched_by: domain
+    app_slug: mailerlite
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: MailerSend
+  partner: mailersend
+  partner_match: domain
+  partner_url: https://mailersend.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/mailersend
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: MailerSend
+    matched_domain: mailersend.com
+    matched_by: domain
+    app_slug: mailersend
+    ifttt_category: Developer tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Microsoft
+  partner: microsoft
+  partner_match: domain+name-among-holders
+  partner_url: https://microsoft.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/excel_365
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Microsoft 365 Excel
+    matched_domain: microsoft.com
+    matched_by: domain+name-among-holders
+    app_slug: excel_365
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Microsoft 365
+  partner: microsoft-365
+  partner_match: domain+name-among-holders
+  partner_url: https://microsoft.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/calendar365
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Microsoft 365 Calendar
+    matched_domain: microsoft.com
+    matched_by: domain+name-among-holders
+    app_slug: calendar365
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Microsoft OneNote
+  partner: microsoft-onenote
+  partner_match: domain+name-among-holders
+  partner_url: https://microsoft.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/onenote
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: OneNote
+    matched_domain: microsoft.com
+    matched_by: domain+name-among-holders
+    app_slug: onenote
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_match: domain+name-among-holders
+  partner_url: https://microsoft.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/outlook
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Microsoft Outlook
+    matched_domain: microsoft.com
+    matched_by: domain+name-among-holders
+    app_slug: outlook
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Microsoft Teams
+  partner: microsoft-teams
+  partner_match: domain+name-among-holders
+  partner_url: https://microsoft.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/microsoft_teams
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Microsoft Teams
+    matched_domain: microsoft.com
+    matched_by: domain+name-among-holders
+    app_slug: microsoft_teams
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Microsoft to Do
+  partner: microsoft-to-do
+  partner_match: domain+name-among-holders
+  partner_url: https://microsoft.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/microsoft_todo
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Microsoft To Do
+    matched_domain: microsoft.com
+    matched_by: domain+name-among-holders
+    app_slug: microsoft_todo
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Monday.com
+  partner: monday-com
+  partner_match: domain
+  partner_url: https://monday.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/monday
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: monday
+    matched_domain: monday.com
+    matched_by: domain
+    app_slug: monday
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Monzo
+  partner: monzo
+  partner_match: domain
+  partner_url: https://monzo.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/monzo
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Monzo
+    matched_domain: monzo.com
+    matched_by: domain
+    app_slug: monzo
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Netlify
+  partner: netlify
+  partner_match: domain
+  partner_url: https://netlify.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/netlify
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Netlify
+    matched_domain: netlify.com
+    matched_by: domain
+    app_slug: netlify
+    ifttt_category: Developer tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: NewsBlur
+  partner: newsblur
+  partner_match: domain
+  partner_url: https://newsblur.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/newsblur
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: NewsBlur
+    matched_domain: newsblur.com
+    matched_by: domain
+    app_slug: newsblur
+    ifttt_category: News & information
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Ohmconnect
+  partner: ohmconnect
+  partner_match: domain
+  partner_url: https://ohmconnect.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/ohmconnect
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: OhmConnect
+    matched_domain: ohmconnect.com
+    matched_by: domain
+    app_slug: ohmconnect
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Optus
+  partner: optus
+  partner_match: domain
+  partner_url: https://optus.com.au
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/optus_smart_living
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Optus Smart Living
+    matched_domain: optus.com.au
+    matched_by: domain
+    app_slug: optus_smart_living
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Oura
+  partner: oura-ring
+  partner_match: domain
+  partner_url: https://ouraring.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/oura_ring
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Oura Ring
+    matched_domain: ouraring.com
+    matched_by: domain
+    app_slug: oura_ring
+    ifttt_category: Health & fitness
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: PagerDuty
+  partner: pagerduty
+  partner_match: domain
+  partner_url: https://pagerduty.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/pagerduty
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: PagerDuty
+    matched_domain: pagerduty.com
+    matched_by: domain
+    app_slug: pagerduty
+    ifttt_category: Developer tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: PandaDoc
+  partner: pandadoc
+  partner_match: domain
+  partner_url: https://pandadoc.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/pandadoc
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: PandaDoc
+    matched_domain: pandadoc.com
+    matched_by: domain
+    app_slug: pandadoc
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Patreon
+  partner: patreon
+  partner_match: domain
+  partner_url: https://patreon.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/patreon
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Patreon
+    matched_domain: patreon.com
+    matched_by: domain
+    app_slug: patreon
+    ifttt_category: News & information
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: PDF.co
+  partner: pdf-co
+  partner_match: domain
+  partner_url: https://pdf.co
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/pdf_co
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: PDF.co
+    matched_domain: pdf.co
+    matched_by: domain
+    app_slug: pdf_co
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Perplexity
+  partner: perplexity
+  partner_match: domain+name-among-holders
+  partner_url: https://perplexity.ai
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/perplexity
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Perplexity
+    matched_domain: perplexity.ai
+    matched_by: domain+name-among-holders
+    app_slug: perplexity
+    ifttt_category: AI
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Picsart
+  partner: picsart
+  partner_match: domain
+  partner_url: https://picsart.io
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/picsart
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Picsart Programmable Image
+    matched_domain: picsart.io
+    matched_by: domain
+    app_slug: picsart
+    ifttt_category: Photo & video
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Pipedrive
+  partner: pipedrive
+  partner_match: domain
+  partner_url: https://pipedrive.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/pipedrive
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Pipedrive
+    matched_domain: pipedrive.com
+    matched_by: domain
+    app_slug: pipedrive
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Podio
+  partner: podio
+  partner_match: domain
+  partner_url: https://podio.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/podio
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Podio
+    matched_domain: podio.com
+    matched_by: domain
+    app_slug: podio
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Polymarket
+  partner: polymarket
+  partner_match: domain
+  partner_url: https://polymarket.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/polymarket
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Polymarket
+    matched_domain: polymarket.com
+    matched_by: domain
+    app_slug: polymarket
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Printful
+  partner: printful
+  partner_match: domain
+  partner_url: https://printful.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/printful
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Printful
+    matched_domain: printful.com
+    matched_by: domain
+    app_slug: printful
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Publora
+  partner: publora
+  partner_match: domain
+  partner_url: https://publora.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/publora
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Publora
+    matched_domain: publora.com
+    matched_by: domain
+    app_slug: publora
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Pushbullet
+  partner: pushbullet
+  partner_match: domain
+  partner_url: https://pushbullet.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/pushbullet
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Pushbullet
+    matched_domain: pushbullet.com
+    matched_by: domain
+    app_slug: pushbullet
+    ifttt_category: Mobile devices & accessories
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Pushover
+  partner: pushover
+  partner_match: domain
+  partner_url: https://pushover.net
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/pushover
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Pushover
+    matched_domain: pushover.net
+    matched_by: domain
+    app_slug: pushover
+    ifttt_category: Mobile devices & accessories
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Qapital
+  partner: qapital
+  partner_match: domain
+  partner_url: https://qapital.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/qapital
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Qapital
+    matched_domain: qapital.com
+    matched_by: domain
+    app_slug: qapital
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: QuickBooks
+  partner: quickbooks
+  partner_match: domain+name-among-holders
+  partner_url: https://intuit.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/quickbooks_online
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: QuickBooks Online
+    matched_domain: intuit.com
+    matched_by: domain+name-among-holders
+    app_slug: quickbooks_online
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Rachio
+  partner: rachio
+  partner_match: domain
+  partner_url: https://rachio.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/rachio_iro
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Rachio Irrigation Controller
+    matched_domain: rachio.com
+    matched_by: domain
+    app_slug: rachio_iro
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+    other_apps:
+    - rachio_smart_hose_timer
+    - rachio_smart_lighting_controller
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Reddit
+  partner: reddit
+  partner_match: domain
+  partner_url: https://reddit.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/reddit
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Reddit
+    matched_domain: reddit.com
+    matched_by: domain
+    app_slug: reddit
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Reolink
+  partner: reolink
+  partner_match: domain
+  partner_url: https://reolink.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/reolink_smart_home
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Reolink
+    matched_domain: reolink.com
+    matched_by: domain
+    app_slug: reolink_smart_home
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Reposit Power
+  partner: reposit-power
+  partner_match: domain
+  partner_url: https://repositpower.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/reposit
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Reposit Power
+    matched_domain: repositpower.com
+    matched_by: domain
+    app_slug: reposit
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Ring
+  partner: ring
+  partner_match: domain
+  partner_url: https://ring.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/ring
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Ring
+    matched_domain: ring.com
+    matched_by: domain
+    app_slug: ring
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: RYSE
+  partner: ryse
+  partner_match: domain
+  partner_url: https://helloryse.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/ryse
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: RYSE
+    matched_domain: helloryse.com
+    matched_by: domain
+    app_slug: ryse
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: SendGrid
+  partner: sendgrid
+  partner_match: domain
+  partner_url: https://sendgrid.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/sendgrid
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: SendGrid
+    matched_domain: sendgrid.com
+    matched_by: domain
+    app_slug: sendgrid
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Sense
+  partner: sense
+  partner_match: domain
+  partner_url: https://sense.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/sense_energy_monitor
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Sense Energy Monitor
+    matched_domain: sense.com
+    matched_by: domain
+    app_slug: sense_energy_monitor
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Sensibo
+  partner: sensibo
+  partner_match: domain
+  partner_url: https://sensibo.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/sensibo
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Sensibo
+    matched_domain: sensibo.com
+    matched_by: domain
+    app_slug: sensibo
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Shippo
+  partner: shippo
+  partner_match: domain
+  partner_url: https://goshippo.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/shippo
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Shippo
+    matched_domain: goshippo.com
+    matched_by: domain
+    app_slug: shippo
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Shortcut Software
+  partner: shortcut-software
+  partner_match: domain
+  partner_url: https://shortcut.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/shortcut
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Shortcut
+    matched_domain: shortcut.com
+    matched_by: domain
+    app_slug: shortcut
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Smartsheet
+  partner: smartsheet
+  partner_match: domain
+  partner_url: https://smartsheet.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/smartsheet
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Smartsheet
+    matched_domain: smartsheet.com
+    matched_by: domain
+    app_slug: smartsheet
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Sonos
+  partner: sonos
+  partner_match: domain
+  partner_url: https://sonos.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/sonos
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Sonos
+    matched_domain: sonos.com
+    matched_by: domain
+    app_slug: sonos
+    ifttt_category: Music
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: SoundCloud
+  partner: soundcloud
+  partner_match: domain
+  partner_url: https://soundcloud.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/soundcloud
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: SoundCloud
+    matched_domain: soundcloud.com
+    matched_by: domain
+    app_slug: soundcloud
+    ifttt_category: Music
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Spotify
+  partner: spotify
+  partner_match: domain+name-among-holders
+  partner_url: https://spotify.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/spotify
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Spotify
+    matched_domain: spotify.com
+    matched_by: domain+name-among-holders
+    app_slug: spotify
+    ifttt_category: Music
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Spreaker
+  partner: spreaker
+  partner_match: domain
+  partner_url: https://spreaker.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/spreaker
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Spreaker
+    matched_domain: spreaker.com
+    matched_by: domain
+    app_slug: spreaker
+    ifttt_category: Podcasts
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Strava
+  partner: strava
+  partner_match: domain
+  partner_url: https://strava.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/strava
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Strava
+    matched_domain: strava.com
+    matched_by: domain
+    app_slug: strava
+    ifttt_category: Health & fitness
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Stripe
+  partner: stripe
+  partner_match: domain
+  partner_url: https://stripe.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/stripe
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Stripe
+    matched_domain: stripe.com
+    matched_by: domain
+    app_slug: stripe
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: SurveyMonkey
+  partner: surveymonkey
+  partner_match: domain
+  partner_url: https://surveymonkey.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/surveymonkey
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: SurveyMonkey
+    matched_domain: surveymonkey.com
+    matched_by: domain
+    app_slug: surveymonkey
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Telegram
+  partner: telegram
+  partner_match: domain+name-among-holders
+  partner_url: https://telegram.org
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/telegram
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Telegram
+    matched_domain: telegram.org
+    matched_by: domain+name-among-holders
+    app_slug: telegram
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: TikTok
+  partner: tiktok
+  partner_match: domain+name-among-holders
+  partner_url: https://tiktok.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/tiktok
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: TikTok
+    matched_domain: tiktok.com
+    matched_by: domain+name-among-holders
+    app_slug: tiktok
+    ifttt_category: Social media
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: TikTok Marketing API
+  partner: tiktok-ads
+  partner_match: domain+name-among-holders
+  partner_url: https://tiktok.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/tiktok_lead_ads
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: TikTok Lead Ads
+    matched_domain: tiktok.com
+    matched_by: domain+name-among-holders
+    app_slug: tiktok_lead_ads
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Todoist
+  partner: todoist
+  partner_match: domain
+  partner_url: https://todoist.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/todoist
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Todoist
+    matched_domain: todoist.com
+    matched_by: domain
+    app_slug: todoist
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Toggl Track
+  partner: toggl
+  partner_match: domain
+  partner_url: https://toggl.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/toggl_track
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Toggl Track
+    matched_domain: toggl.com
+    matched_by: domain
+    app_slug: toggl_track
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Trakt
+  partner: trakt
+  partner_match: domain
+  partner_url: https://trakt.tv
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/trakt
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Trakt
+    matched_domain: trakt.tv
+    matched_by: domain
+    app_slug: trakt
+    ifttt_category: Gaming & Entertainment
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Transistor
+  partner: transistor
+  partner_match: domain
+  partner_url: https://transistor.fm
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/transistor
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Transistor
+    matched_domain: transistor.fm
+    matched_by: domain
+    app_slug: transistor
+    ifttt_category: Podcasts
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Trello
+  partner: trello
+  partner_match: domain
+  partner_url: https://trello.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/trello
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Trello
+    matched_domain: trello.com
+    matched_by: domain
+    app_slug: trello
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Tripadvisor
+  partner: tripadvisor
+  partner_match: domain
+  partner_url: https://tripadvisor.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/tripadvisor
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: TripAdvisor
+    matched_domain: tripadvisor.com
+    matched_by: domain
+    app_slug: tripadvisor
+    ifttt_category: Location
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Tumblr
+  partner: tumblr
+  partner_match: domain
+  partner_url: https://tumblr.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/tumblr
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Tumblr
+    matched_domain: tumblr.com
+    matched_by: domain
+    app_slug: tumblr
+    ifttt_category: Website & blog
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Twitch
+  partner: twitch
+  partner_match: domain
+  partner_url: https://twitch.tv
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/twitch
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Twitch
+    matched_domain: twitch.tv
+    matched_by: domain
+    app_slug: twitch
+    ifttt_category: Gaming & Entertainment
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Typeform
+  partner: typeform
+  partner_match: domain
+  partner_url: https://typeform.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/typeform
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Typeform
+    matched_domain: typeform.com
+    matched_by: domain
+    app_slug: typeform
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Venice.ai
+  partner: venice-ai
+  partner_match: domain
+  partner_url: https://venice.ai
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/venice_ai
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Venice AI
+    matched_domain: venice.ai
+    matched_by: domain
+    app_slug: venice_ai
+    ifttt_category: AI
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: WattTime
+  partner: watttime
+  partner_match: domain
+  partner_url: https://watttime.org
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/watttime
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: WattTime
+    matched_domain: watttime.org
+    matched_by: domain
+    app_slug: watttime
+    ifttt_category: Smart home & IoT
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Wave Financial
+  partner: wave-financial
+  partner_match: domain
+  partner_url: https://waveapps.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/wave
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Wave
+    matched_domain: waveapps.com
+    matched_by: domain
+    app_slug: wave
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Webflow
+  partner: webflow
+  partner_match: domain+name-among-holders
+  partner_url: https://webflow.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/webflow
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Webflow
+    matched_domain: webflow.com
+    matched_by: domain+name-among-holders
+    app_slug: webflow
+    ifttt_category: Website & blog
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Weebly
+  partner: weebly
+  partner_match: domain
+  partner_url: https://weebly.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/weebly
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Weebly
+    matched_domain: weebly.com
+    matched_by: domain
+    app_slug: weebly
+    ifttt_category: Website & blog
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: WHOOP
+  partner: whoop
+  partner_match: domain
+  partner_url: https://whoop.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/whoop
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Whoop
+    matched_domain: whoop.com
+    matched_by: domain
+    app_slug: whoop
+    ifttt_category: Health & fitness
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Wistia
+  partner: wistia
+  partner_match: domain
+  partner_url: https://wistia.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/wistia
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Wistia
+    matched_domain: wistia.com
+    matched_by: domain
+    app_slug: wistia
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Withings
+  partner: withings
+  partner_match: domain
+  partner_url: https://withings.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/withings
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Withings
+    matched_domain: withings.com
+    matched_by: domain
+    app_slug: withings
+    ifttt_category: Health & fitness
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+    other_apps:
+    - WithingsSleep
+    - withingshome
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: WooCommerce
+  partner: woocommerce
+  partner_match: domain
+  partner_url: https://woocommerce.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/woocommerce
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: WooCommerce
+    matched_domain: woocommerce.com
+    matched_by: domain
+    app_slug: woocommerce
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: WordPress
+  partner: wordpress
+  partner_match: domain
+  partner_url: https://wordpress.org
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/wordpress
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: WordPress
+    matched_domain: wordpress.org
+    matched_by: domain
+    app_slug: wordpress
+    ifttt_category: Website & blog
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Wrike
+  partner: wrike
+  partner_match: domain
+  partner_url: https://wrike.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/wrike
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Wrike
+    matched_domain: wrike.com
+    matched_by: domain
+    app_slug: wrike
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Xero
+  partner: xero
+  partner_match: domain
+  partner_url: https://xero.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/xero
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Xero
+    matched_domain: xero.com
+    matched_by: domain
+    app_slug: xero
+    ifttt_category: Finance & payments
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Yelp
+  partner: yelp
+  partner_match: domain
+  partner_url: https://yelp.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/yelp
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Yelp
+    matched_domain: yelp.com
+    matched_by: domain
+    app_slug: yelp
+    ifttt_category: Gaming & Entertainment
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Zoho
+  partner: zoho
+  partner_match: domain+name-among-holders
+  partner_url: https://zoho.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/notebook
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Zoho Notebook
+    matched_domain: zoho.com
+    matched_by: domain+name-among-holders
+    app_slug: notebook
+    ifttt_category: Project management & to-dos
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Zoho Cliq
+  partner: zoho-cliq
+  partner_match: domain+name-among-holders
+  partner_url: https://zoho.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/zohocliq
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Zoho Cliq
+    matched_domain: zoho.com
+    matched_by: domain+name-among-holders
+    app_slug: zohocliq
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+    other_apps:
+    - zohocliq_au
+    - zohocliq_cn
+    - zohocliq_eu
+    - zohocliq_in
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Zoho Mail
+  partner: zoho-mail
+  partner_match: domain+name-among-holders
+  partner_url: https://zoho.com
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/zoho_mail
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Zoho Mail
+    matched_domain: zoho.com
+    matched_by: domain+name-among-holders
+    app_slug: zoho_mail
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+    other_apps:
+    - zohomail_eu
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
+- partner_name: Zoom
+  partner: zoom
+  partner_match: domain
+  partner_url: https://zoom.us
+  type: coverage
+  marketplace: coverage
+  channel: provider-built
+  relationship: connector-coverage
+  direction: provider-built
+  evidence: https://ifttt.com/zoom
+  contract_reference:
+    register: IFTTT service directory (ifttt.com/explore/services; ifttt.com/<service>)
+    spec_file: null
+    role: ipaas-connector:ifttt
+    registered_name: Zoom
+    matched_domain: zoom.us
+    matched_by: domain
+    app_slug: zoom
+    ifttt_category: Business tools
+    builder: unknown (the service page does not say who built it)
+    detected_by: sweep-ifttt-services.py
+    detected: '2026-10-23'
+    signal_note: one edge per (provider, platform); triggers, actions and applet counts are context, never read
+    other_apps:
+    - zoom_phone
+  detected_by: sweep-ifttt-services.py
+  first_seen: '2026-10-23'
 templates: []
